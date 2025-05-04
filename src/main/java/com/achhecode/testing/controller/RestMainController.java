@@ -14,6 +14,6 @@ public class RestMainController {
     @GetMapping("/test")
     public String test(){
         log.info("Test api called");
-        return "testing worked!!!";
+        return "testing worked!";
     }
 }

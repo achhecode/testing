@@ -2,11 +2,6 @@ spring:
   application:
     name: testing
 
-  data:
-    mongodb:
-      uri: mongodb://admin:system@localhost:27017/test?authSource=admin
-
-
 logging:
   level:
     root: INFO
